@@ -1,0 +1,125 @@
+.nav {
+    overflow: hidden;
+}
+
+.sk {
+    position: absolute;
+    left: 190px;
+    top: 40px;
+    border-left: 1px solid #b1191a;
+    padding: 3px 0 0 14px;
+}
+
+.sk_list {
+    float: left;
+}
+
+.sk_list ul li {
+    float: left;
+}
+
+.sk_list ul li a {
+    display: block;
+    line-height: 47px;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+
+.sk_con {
+    float: left;
+}
+
+.sk_con ul li {
+    float: left;
+}
+
+.sk_con ul li a {
+    display: block;
+    line-height: 49px;
+    padding: 0 20px;
+    font-size: 14px;
+}
+
+.sk_con ul li:last-child a::after {
+    font-family: 'icomoon';
+    content: '';
+}
+
+.sk_bd ul li {
+    position: relative;
+    float: left;
+    margin-right: 13px;
+    margin-bottom: 120px;
+    overflow: hidden;
+    width: 290px;
+    height: 460px;
+    background-color: #ffffff;
+    border: 1px solid transparent;
+    /* text-align: center; */
+}
+
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.sk_bd ul li:hover {
+    border: 1px solid #b1191a;
+
+}
+
+.sk_bd ul li p {
+    width: 269px;
+    height: 36px;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+.sk_bd ul li .p1 {
+    float: left;
+    color: #e60012;
+    font-size: 22px;
+    margin: 16px 10px;
+}
+
+.sk_bd ul li .p2 {
+    float: left;
+    color: #a4a4a4;
+    font-size: 14px;
+    margin: 25px 10px;
+    text-decoration: line-through;
+}
+
+.sk_bd ul li h4 {
+    position: absolute;
+    top: 385px;
+    left: 10px;
+
+}
+
+.box {
+    position: absolute;
+    top: 385px;
+    left: 73px;
+    width: 150px;
+    height: 15px;
+    border: 1px solid red;
+    border-radius: 7px;
+    padding: 1px;
+}
+
+.box1 {
+    width: 50%;
+    height: 100%;
+    background-color: red;
+    transition: width 1s;
+}
+
+.box:hover .box1 {
+    width: calc(100%);
+}
+
+.sk_bd ul li .p3 {
+    margin-top: 14px;
+}
